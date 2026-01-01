@@ -10,3 +10,5 @@ func main() {
 	msg := <-messages
 	fmt.Println(msg)
 }
+
+//By default sends and receives block until both the sender and receiver are ready.
